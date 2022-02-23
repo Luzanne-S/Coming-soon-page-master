@@ -39,6 +39,7 @@ strong{
     border-left-style: outset;
     border:none;
     box-shadow:0 11px 6px -8px rgb(167, 188, 233);
+    cursor: pointer;
 }
 .notify:hover{
     background-color:  hsl(224, 79%, 73%);
@@ -61,7 +62,19 @@ input:focus{
     border-color: hsl(223, 100%, 88%);
 }
 
-
+.errorMsg input {
+    border: 2px hsl(0, 100%, 74%) solid !important;
+    padding-right: calc(-7.25rem + 0.75rem) !important;
+    margin-bottom: 0.5rem !important;
+    
+  }
+  
+.error-text {
+    font-size: 12px;
+    font-weight: 600;
+    color: hsl(0, 100%, 74%);
+    margin-bottom: 1rem;
+  }
 .main-image{
     width:470px;
    margin-left: -15%;
@@ -85,6 +98,7 @@ input:focus{
     padding-left:10px;
     padding-right: 10px;
     color:hsl(223, 87%, 63%);
+    cursor: pointer;
 }
 .fa-facebook-f:hover,.fa-twitter:hover,.fa-instagram:hover{
     background-color: hsl(223, 87%, 63%);
